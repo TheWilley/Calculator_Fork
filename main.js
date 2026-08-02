@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("button");
+const buttons = document.querySelector("#btns").children
 const inputField = document.getElementById("result");
 
 for (let i = 0; i < buttons.length; i++) {

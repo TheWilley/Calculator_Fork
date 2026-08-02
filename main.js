@@ -7,7 +7,7 @@ for (let i = 0; i < buttons.length; i++) {
         if (buttonsValue === "C") {
             resetResult();
         } else if (buttonsValue === "=") {
-            // calcResult();
+            calcResult();
         } else {
             addValue(buttonsValue);
         }
